@@ -25,6 +25,6 @@ public class DoWhileLeaveEntitlement15 {
                     System.out.println("The remaining leave entitlement is not sufficient.");
                 }
             }
-        } while (leaveEntitlement > 0 && confirmation.equalsIgnoreCase("y"));
+        } while (leaveEntitlement > 0 && confirmation.equalsIgnoreCase("y"));//In this line I make sure that it would only run by using y only
     }
 }
