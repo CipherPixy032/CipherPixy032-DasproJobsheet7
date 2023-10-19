@@ -21,13 +21,10 @@ public class DoWhileLeaveEntitlement15 {
                 if (numLeave <= leaveEntitlement) {
                     leaveEntitlement -= numLeave;
                     System.out.println("Remaining leave entitlement: " + leaveEntitlement);
-
-
                 } else {
                     System.out.println("The remaining leave entitlement is not sufficient.");
-                    break;
                 }
             }
-        } while (leaveEntitlement > 0);
+        } while (leaveEntitlement > 0 && confirmation.equalsIgnoreCase("y"));
     }
 }
